@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap'); </style>
+    <script src="https://kit.fontawesome.com/651edd0b9d.js" crossorigin="anonymous"></script>
+
+    
+    <title>Rojob Ali</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="nav-1">
+          <nav>
+            <a href="index.html"><img  src="image/logo2.jpg" alt="" style="width:50px;height:auto;" ></a>
+            <div class="nav-links" id="navlinks">
+              <i class="fa-solid fa-bars top" onclick="hidemenu()"></i>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Club</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+            <i class="fa-solid fa-bars bottom" onclick="showmenu()"></i>
+          </nav>
+        </div>
+      <div class="text-box"> 
+      <a href="index.html"><img src="image/logo.png" alt=""></a><br>
+        <span style="color:tomato; font-size:70px; font-weight:bold">Rajab Ali Memorial</span><br>
+        <span style="color:white; font-size:50px; font-weight:bold">Scinece College</span>
+      </div>
+    </section>
+
+    
+<!-- About section -->
+<section>
+  <div style="padding:30px">
+    <h1 style="text-align:center;">About</h1>
+    <div>
+    <p>Rajab Ali Memorial Science College is situated in Sirajganj. It is one of the leading private college of sirajgnj. About 1200 students have passed out from this college.</p>
+    </div>
+  </div>
+</section>
+
+<!-- About section -->
+<section>
+  <div style=" width:100%">
+    <h1 style="text-align:center;">Gallery</h1>
+
+    <div style="display:inline; width:100% ">
+      <img  src="image/bg.jpg" alt="" style="width:310px;height:auto; margin:10px" >
+    </div>
+    <div style="display:inline; width:100% ">
+      <img  src="image/bg2.jpg" alt="" style="width:310px;height:auto; margin:10px" >
+    </div>
+    <div style="display:inline; width:100% ">
+      <img  src="image/h-bg.jpg" alt="" style="width:310px;height:auto; margin:10px" >
+    </div>
+
+    <div style="display:inline; width:100% ">
+      <img  src="image/s1.jpg" alt="" style="width:310px;height:auto; margin:10px" >
+    </div>
+     <div style="display:inline; width:100% ">
+      <img  src="image/s2.jpg" alt="" style="width:310px;height:auto; margin:10px" >
+    </div>
+     <div style="display:inline; width:100% ">
+      <img  src="image/s3.jpg" alt="" style="width:310px;height:auto; margin:10px" >
+    </div>
+     <div style="display:inline; width:100% ">
+      <img  src="image/s4.jpg" alt="" style="width:310px;height:auto; margin:10px" >
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Java script for Toggle menu -->
+    <script>
+      var navlinks = document.getElementById("navlinks")
+
+      function showmenu(){
+        navlinks.style.right = "0";
+      }
+      function hidemenu(){
+        navlinks.style.right = "-200px";
+      }
+
+    </script>
+
+</body>
+</html>
